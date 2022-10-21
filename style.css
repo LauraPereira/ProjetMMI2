@@ -1,0 +1,635 @@
+@font-face {
+    font-family: "Indie Flower";
+    src: url(https://projets.iut-laval.univ-lemans.fr/18mmi2pj06/police/IndieFlower.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+#TerreAccueil{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+}
+#imgAccueil{
+width : 100%;
+margin-bottom : -6px;
+}
+
+body{
+    background: linear-gradient(#285468, #CDEDFC);
+margin  : 0;
+}
+#DecouvreMonde{
+    border: solid 2px black;
+    border-radius: 15px;
+    font-family: "Indie Flower";
+    width: auto;
+    background: #F5F5DC;
+}
+#OtarieLogo{
+    margin-top: 5%;
+}
+#OtarieLogo img{
+width : 30vw;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#Map img {
+    width: 100%;
+}
+
+.country path:hover
+{
+	cursor: pointer;
+	fill: #fff;
+}
+
+.country a>path:hover{
+    cursor: pointer;
+	fill: #fff;
+}
+.country a:hover, #pyramide:hover, #tajMahal:hover, #planche:hover, #spartacus:hover, #sombrero:hover, #flute:hover{
+    cursor: pointer;
+	fill: #fff;
+}
+
+
+/**************************affiche pays****************/
+#egypte, #inde, #grece, #perou, #mexique, #australie {
+    position: absolute;
+    left: 40%;
+    bottom: 10%;
+    font-family: Indie Flower;
+    font-size: 5vw;
+    visibility: hidden;
+}
+#Map{
+    position : relative;
+}
+
+/**********************************transitionChemin*******************/
+@keyframes chemins {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+#_1{
+    opacity: 0;
+    animation-name: chemins;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+#_2{
+    opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 1.5s;
+    animation-iteration-count:infinite;
+}
+#_3{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 2s;
+     animation-iteration-count: infinite;
+}
+#_4{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+   animation-delay: 2.5s;
+    animation-iteration-count: infinite;
+}
+#_5{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+  animation-delay: 3s;
+     animation-iteration-count: infinite;
+}
+#_6{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+   animation-delay: 3.5s;
+     animation-iteration-count: infinite;
+}
+#_7{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+   animation-delay: 4s;
+     animation-iteration-count: infinite;
+}
+#_8{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+   animation-delay: 4.5s;
+    animation-iteration-count: infinite;
+}
+#_9{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 5s;
+     animation-iteration-count: infinite;
+}
+#_10{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 5.5s;
+    animation-iteration-count: infinite;
+}
+#_11{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 6.5s;
+    animation-iteration-count: infinite;
+}
+#_12{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 7s;
+    animation-iteration-count: infinite;
+}
+#_13{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 7.5s;
+    animation-iteration-count: infinite;
+}
+#_14{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 8s;
+    animation-iteration-count: infinite;
+}
+#_15{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 8.5s;
+    animation-iteration-count: infinite;
+}
+#_16{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 9s;
+    animation-iteration-count: infinite;
+}
+#_17{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+   animation-delay: 9.5s;
+    animation-iteration-count: infinite;
+}
+#_18{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+}
+#_19{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 10.5s;
+    animation-iteration-count: infinite;
+}
+#_20{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 11s;
+    animation-iteration-count: infinite;
+}
+#_21{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 11.5s;
+    animation-iteration-count: infinite;
+}
+#_22{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 12s;
+    animation-iteration-count: infinite;
+}
+#_23{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 12.5s;
+    animation-iteration-count: infinite;
+}
+#_24{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 13s;
+    animation-iteration-count: infinite;
+}
+#_25{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 13.5s;
+    animation-iteration-count: infinite;
+}
+#_26{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 14s;
+    animation-iteration-count: infinite;
+}
+#_27{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 14.5s;
+    animation-iteration-count: infinite;
+}
+#_28{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 15s;
+    animation-iteration-count: infinite;
+}
+#_29{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 15.5s;
+    animation-iteration-count: infinite;
+}
+#_30{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 16s;
+    animation-iteration-count: infinite;
+}
+#_31{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 16.5s;
+    animation-iteration-count: infinite;
+}
+#_32{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 17s;
+    animation-iteration-count: infinite;
+}
+#_33{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 17.5s;
+    animation-iteration-count: infinite;
+}
+#_34{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 18s;
+    animation-iteration-count: infinite;
+}
+#_35{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 18.5s;
+    animation-iteration-count: infinite;
+}
+#_36{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 19s;
+    animation-iteration-count: infinite;
+}
+#_37{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 19.5s;
+    animation-iteration-count: infinite;
+}
+#_38{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 20s;
+    animation-iteration-count: infinite;
+}
+#_39{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 20.5s;
+    animation-iteration-count: infinite;
+}
+#_40{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 21s;
+    animation-iteration-count: infinite;
+}
+#_41{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 21.5s;
+    animation-iteration-count: infinite;
+}
+#_42{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 22s;
+    animation-iteration-count: infinite;
+}
+#_43{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 22.5s;
+    animation-iteration-count: infinite;
+}
+#_44{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 23s;
+    animation-iteration-count: infinite;
+}
+#_45{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 23.5s;
+    animation-iteration-count: infinite;
+}
+#_46{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 24s;
+    animation-iteration-count: infinite;
+}
+#_47{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 24.5s;
+    animation-iteration-count: infinite;
+}
+#_48{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 25s;
+    animation-iteration-count: infinite;
+}
+#_49{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 25.5s;
+    animation-iteration-count: infinite;
+}
+#_50{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 26s;
+    animation-iteration-count: infinite;
+}
+#_51{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 26.5s;
+    animation-iteration-count: infinite;
+}
+#_52{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 27s;
+    animation-iteration-count: infinite;
+}
+#_53{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 27.5s;
+    animation-iteration-count: infinite;
+}
+#_54{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 28s;
+    animation-iteration-count: infinite;
+}
+#_55{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 28.5s;
+    animation-iteration-count: infinite;
+}
+#_56{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 29s;
+    animation-iteration-count: infinite;
+}
+#_57{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 29.5s;
+    animation-iteration-count: infinite;
+}
+#_58{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 30s;
+    animation-iteration-count: infinite;
+}
+#_59{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 30.5s;
+    animation-iteration-count: infinite;
+}
+#_60{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 31s;
+    animation-iteration-count: infinite;
+}
+#_61{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 31.5s;
+    animation-iteration-count: infinite;
+}
+#_62{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 32s;
+    animation-iteration-count: infinite;
+}
+#_63{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 32.5s;
+    animation-iteration-count: infinite;
+}
+#_64{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 33s;
+    animation-iteration-count: infinite;
+}
+#_65{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 33.5s;
+    animation-iteration-count: infinite;
+}
+#_66{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 34s;
+    animation-iteration-count: infinite;
+}
+#_67{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 34.5s;
+    animation-iteration-count: infinite;
+}
+#_68{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 35s;
+    animation-iteration-count: infinite;
+}
+#_69{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 35.5s;
+    animation-iteration-count: infinite;
+}
+#_70{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 36s;
+    animation-iteration-count: infinite;
+}
+#_71{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 36.5s;
+    animation-iteration-count: infinite;
+}
+#_72{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 37s;
+    animation-iteration-count: infinite;
+}
+#_73{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 37.5s;
+    animation-iteration-count: infinite;
+}
+#_74{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 38s;
+    animation-iteration-count: infinite;
+}
+#_75{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 38.5s;
+    animation-iteration-count: infinite;
+}
+#_76{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 39s;
+    animation-iteration-count: infinite;
+}
+#_77{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 39.5s;
+    animation-iteration-count: infinite;
+}
+#_78{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+    animation-delay: 40s;
+    animation-iteration-count: infinite;
+}
+#_79{
+     opacity: 0;
+      animation-name: chemins;
+      animation-duration: 5s;
+   animation-delay: 40.5s;
+    animation-iteration-count: infinite;
+}
