@@ -7,7 +7,7 @@
     <title>Hello World ! | Accueil</title>
     <meta name="description" content="Egypte">
     <!--  <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon" /> -->
-    <link rel="stylesheet" href="https://projets.iut-laval.univ-lemans.fr/18mmi2pj06/style.css" type="text/css" />
+    <link rel="stylesheet" href="127.0.0.1/style.css" type="text/css" />
 
 </head>
 <?php
