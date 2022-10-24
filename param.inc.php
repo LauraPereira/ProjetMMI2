@@ -1,11 +1,11 @@
 <?php
 	if(!defined("MYHOST"))
-		define("MYHOST","localhost");
+		define("MYHOST","127.0.0.1");
 	if(!defined("MYUSER"))
-		define("MYUSER","18mmi2pj06");
+		define("MYUSER","root");
 	if(!defined("MYPASS"))
-		define("MYPASS","D360iAhN");
+		define("MYPASS","");
 	if(!defined("MYDB"))
-		define("MYDB","18mmi2pj06");
+		define("MYDB","");
 ?>
 
