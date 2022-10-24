@@ -23,6 +23,16 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Création de la table : `Puzzle`
+--
+
+CREATE TABLE Puzzle (
+    `id` INT PRIMARY KEY NOT NULL,
+    `matricePuzzle` VARCHAR(10),
+    `pieces` VARCHAR(50)
+    );
+
+--
 -- Contenu de la table `Puzzle`
 --
 
