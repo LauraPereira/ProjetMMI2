@@ -103,7 +103,7 @@ CREATE TABLE `pays` (
 -- Contenu de la table `pays`
 --
 
-INSERT INTO `pays` (`id`, `nomPays`, `VideoCuisine`, `VideoHistoire`, `VideoIntroduction`, `imageOtarie`, `imageAnimalPays`, `iconeLi`, `imageDecoPays`, `url`, `urlJeu`, `imagePuzzle`) VALUES
+INSERT INTO `pays` (`id`, `nomPays`, `VideoCuisine`, `VideoHistoire`, `VideoIntroduction`, `imageOtarie`, `imageAnimalPays`, `iconeLi`, `imageDecoPays`, `url`, `urlJeu`, `urlJeu2`, `imagePuzzle`) VALUES
 (1, 'L\'Égypte', './media/videos/MenenathCuisineEgypte.mp4', './media/videos/DessinAnimeEgypte.mp4', './media/videos/IntroEgypte.mp4', './media/images/Egypte/OtarieEgypte.png', './media/images/Egypte/EgypteChameau.png', './media/images/Egypte/Pyramide.png', './media/images/Egypte/PyramideTrois.png', './php/Pays.php?idLien=1', './php/JeuPays.php?idLien=1', './php/JeuPays2.php?idLien=1','./media/images/Egypte/sphinx.png'),
 (2, 'L\'Australie', './media/videos/LaPavlova.mp4', './media/videos/HistoireAustralie.mp4', './media/videos/IntroAustralie.mp4', './media/images/Australie/OtarieAustralie.png', './media/images/Australie/Kangourou.png', './media/images/Australie/IconeAustralie.png', './media/images/Australie/PlancheSurf.png', './php/Pays.php?idLien=2', './php/JeuPays.php?idLien=2', './php/JeuPays2.php?idLien=2' ,'./media/images/Australie/puzzleSyndey.png'),
 (3, 'L\'Inde', './media/videos/PouletAuCurry.mp4', './media/videos/HistoireInde.mp4', './media/videos/IntroInde.mp4', './media/images/Inde/ImageOtarie.png', './media/images/Inde/Elephant.png', './media/images/Inde/IconeInde.png', './media/images/Inde/TajMahal.png', './php/Pays.php?idLien=3', './php/JeuPays.php?idLien=3', './php/JeuPays2.php?idLien=3' ,'./media/images/Inde/TajMahal.png'),
