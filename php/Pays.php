@@ -2,7 +2,7 @@
 	header("Content-type: text/html; charset=UTF-8") ;
 	
 	//ouvre bdd
-	require("param.inc.php");
+	require("../param.inc.php");
 	$pdo = new PDO("mysql:host=".MYHOST.";dbname=".MYDB,MYUSER,MYPASS);
 	$pdo->query("SET NAMES utf8");
 	$pdo->query("SET CHARACTER SET 'utf8'");
