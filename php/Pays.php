@@ -32,7 +32,7 @@
         </title>
         <meta name="description" content="<?php echo $nomPays ?>">
         <!--  <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon" /> -->
-        <link rel="stylesheet" href="https://projets.iut-laval.univ-lemans.fr/18mmi2pj06/css/jeu.css" type="text/css" />
+        <link rel="stylesheet" href="../css/jeu.css" type="text/css" />
 
     </head>
 
@@ -78,9 +78,9 @@
                 </div>
             </div>
         </main>
-        <script src="https://projets.iut-laval.univ-lemans.fr/18mmi2pj06/js/jquery-3.3.1.js"></script>
-        <script src="https://projets.iut-laval.univ-lemans.fr/18mmi2pj06/js/jquery-ui.min.js"></script>
-        <script src="https://projets.iut-laval.univ-lemans.fr/18mmi2pj06/js/Pays.js"></script>
+        <script src="../js/jquery-3.3.1.js"></script>
+        <script src="../js/jquery-ui.min.js"></script>
+        <script src="../js/Pays.js"></script>
     </body>
 
     </html>
